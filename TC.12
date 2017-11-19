@@ -1721,7 +1721,30 @@ def bot(op):
 						except:
 							pass
 #-----------------------------------------------
-            elif msg.text in ["Kill"]:
+            elif "Backup me" in msg.text:
+		try:
+		    cl.updateDisplayPicture(profile.pictureStatus)
+		    cl.updateProfile(profile)
+		    cl.sendText(msg.to, "Success backup profile")
+		except Exception as e:
+		    cl.sendText(msg.to, str(e))
+#--------------------------------------------------------
+	    elif "Copy " in msg.text:
+                copy0 = msg.text.replace("Copy ","")
+                copy1 = copy0.lstrip()
+                copy2 = copy1.replace("@","")
+                copy3 = copy2.rstrip()
+                _name = copy3
+		group = cl.getGroup(msg.to)
+		for contact in group.members:
+		    cname = cl.getContact(contact.mid).displayName
+		    if cname == _name:
+			cl.CloneContactProfile(contact.mid)
+			cl.sendText(msg.to, "Success~")
+		    else:
+			pass  
+#---------------------------------------------------------------
+          elif msg.text in ["Kill"]:
 				if msg.from_ in admin:
 					if msg.toType == 2:
 						group = ki.getGroup(msg.to)
