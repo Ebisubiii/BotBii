@@ -53,7 +53,6 @@ helpMessage ="""NTB Self
 ✎ Gift
 ✎ Respon
 ✎ Kam
-✎ Glist
 ✎ Spam
 ✎ Check > Absen
 ✎ Steal + Mid
@@ -81,6 +80,7 @@ helpMessage ="""NTB Self
 ✎ Stalk
 ✎ Masuk
 ✎ Gcreator
+✎ Backup me
 -------------------------
 ||==[►итв тєαм вσт◄]==||
 ------------------------
