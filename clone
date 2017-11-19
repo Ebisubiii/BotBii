@@ -28,9 +28,9 @@ sys.setdefaultencoding('utf-8')
 # image_path = 'tmp/tmp.jpg'
 
 helpMessage ="""NTB Self
-||-----------------------------||
+||------------------------------------||
 || ===[Command For Creator]=== ||
-||-----------------------------||
+||------------------------------------||
 ✎ Id
 ✎ Mid
 ✎ Mid @
@@ -77,9 +77,16 @@ helpMessage ="""NTB Self
 ✎ Admin add @
 ✎ Admin remove @
 ✎ Adminlist
-||---------------------||
+✎ Copy @
+✎ Stalk
+✎ Masuk
+✎ Gcreator
+-------------------------
+||==[►итв тєαм вσт◄]==||
+------------------------
+||--------------------------||
 || ===[Creator Bii]=== ||
-||---------------------||
+||--------------------------||
 """
 KAC=[cl,ki,kk,kc]
 mid = cl.getProfile().mid
@@ -1640,7 +1647,7 @@ def bot(op):
                     else:
                         cl.sendText(msg.to, "An already read point has not been set.\n「set」you can send ♪ read point will be created ♪")
 #-----------------------------------------------
-            elif msg.text in ["Tagall"]:
+            elif msg.text in ["Kam"]:
               if msg.from_ in admin:
                 group = cl.getGroup(msg.to)
                 nama = [contact.mid for contact in group.members]
@@ -1944,12 +1951,12 @@ def bot(op):
 					ki.sendText(msg.to,"☠HadirTuan☠")
 #-----------------------------------------------
             elif "Bii say " in msg.text:
-					bctxt = msg.text.replace("Tob say ","")
+					bctxt = msg.text.replace("Bii say ","")
 					ki.sendText(msg.to,(bctxt))
 #-----------------------------------------------
             elif msg.text in ["Creator"]:
 					msg.contentType = 13
-					msg.contentMetadata = {'mid': "ua7fb5762d5066629323d113e1266e8ca"}
+					msg.contentMetadata = {'mid': "uc77fd25b59f6e563d84f1334f3fed10b"}
 					cl.sendMessage(msg)
 #-----------------------------------------------
             elif "Spam " in msg.text:
