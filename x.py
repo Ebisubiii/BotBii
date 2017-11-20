@@ -921,7 +921,7 @@ def bot(op):
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"✠ Not Found")
                     else:
-                        cl.sendText(msg.to,"✠ Not Found")
+                        cl.sendText(msg.to,"✠ Maybe inside Album")
                 else:
                     if wait["lang"] == "JP":
                         mg = "Berikut ini adalah album dari target"
@@ -938,9 +938,9 @@ def bot(op):
                 album = cl.getAlbum(gid)
                 if album["result"]["items"] == []:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Tidak ada album")
+                        cl.sendText(msg.to,"✠ Not Found Album")
                     else:
-                        cl.sendText(msg.to,"Dalam album tidak")
+                        cl.sendText(msg.to,"✠ Inside Album Not")
                 else:
                     if wait["lang"] == "JP":
                         mg = "Berikut ini adalah album dari target"
@@ -960,9 +960,9 @@ def bot(op):
                         cl.deleteAlbum(gid,album["gid"])
                         i += 1
                 if wait["lang"] == "JP":
-                    cl.sendText(msg.to,str(i) + "Soal album telah dihapus")
+                    cl.sendText(msg.to,str(i) + "✠ Delete Done")
                 else:
-                    cl.sendText(msg.to,str(i) + "Hapus kesulitan album🛡")
+                    cl.sendText(msg.to,str(i) + "✠ Done")
             elif msg.text.lower() == 'group id':
                 gid = cl.getGroupIdsJoined()
                 h = ""
@@ -978,7 +978,7 @@ def bot(op):
                     ki2.leaveGroup(i)
                     ki7.leaveGroup(i)                    
                 if wait["lang"] == "JP":
-                    cl.sendText(msg.to,"Bot Sudah Keluar Di semua grup")
+                    cl.sendText(msg.to,"❤ Bye Bye All ❤")
                 else:
                     cl.sendText(msg.to,"He declined all invitations")
             elif "Album deleted:" in msg.text:
@@ -990,39 +990,39 @@ def bot(op):
                         cl.deleteAlbum(gid,album["id"])
                         i += 1
                 if wait["lang"] == "JP":
-                    cl.sendText(msg.to,str(i) + "Soal album telah dihapus👈")
+                    cl.sendText(msg.to,str(i) + "✠ Done Delete My King")
                 else:
-                    cl.sendText(msg.to,str(i) + "Hapus kesulitan album👈")
+                    cl.sendText(msg.to,str(i) + "✠ Done Delete My King")
             elif msg.text in ["Auto add on","Add auto on"]:
                 if wait["autoAdd"] == True:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Already On")
+                        cl.sendText(msg.to,"✠ Already On")
                     else:
-                        cl.sendText(msg.to,"Already On👈")
+                        cl.sendText(msg.to,"✠ Already On")
                 else:
                     wait["autoAdd"] = True
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Already On👈")
+                        cl.sendText(msg.to,"✠ Already On")
                     else:
-                        cl.sendText(msg.to,"Already On👈")
+                        cl.sendText(msg.to,"✠ Already On")
             elif msg.text in ["Auto add off","Add auto off"]:
                 if wait["autoAdd"] == False:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Hal ini sudah off👈")
+                        cl.sendText(msg.to,"✠ Turn Off")
                     else:
-                        cl.sendText(msg.to,"Hal ini sudah dimatikan👈")
+                        cl.sendText(msg.to,"✠ Turn Off")
                 else:
                     wait["autoAdd"] = False
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Already Off👈")
+                        cl.sendText(msg.to,"✠ Already Off")
                     else:
                         cl.sendText(msg.to,"Untuk mengaktifkan-off👈")
             elif "Message set:" in msg.text:
                 wait["message"] = msg.text.replace("Message set:","")
-                cl.sendText(msg.to,"We changed the message👈")
+                cl.sendText(msg.to,"✠ We changed the message")
             elif "Help set:" in msg.text:
                 wait["help"] = msg.text.replace("Help set:","")
-                cl.sendText(msg.to,"We changed the Help👈")
+                cl.sendText(msg.to,"✠ We changed the Help")
             elif "Pesan add-" in msg.text:
                 wait["message"] = msg.text.replace("Pesan add-","")
                 if wait["lang"] == "JP":
@@ -1031,36 +1031,36 @@ def bot(op):
                     cl.sendText(msg.to,"Change information")
             elif msg.text in ["Pesan add cek","Message Confirmation"]:
                 if wait["lang"] == "JP":
-                    cl.sendText(msg.to,"Additional information is automatically set to the following \n\n" + wait["message"])
+                    cl.sendText(msg.to,"✠ Additional information is automatically set to the following \n\n" + wait["message"])
                 else:
-                    cl.sendText(msg.to,"Pesan tambahan otomatis telah ditetapkan sebagai berikut \n\n" + wait["message"])
+                    cl.sendText(msg.to,"✠ Pesan tambahan otomatis telah ditetapkan sebagai berikut \n\n" + wait["message"])
             elif msg.text in ["Change","change"]:
                 if wait["lang"] =="JP":
                     wait["lang"] = "TW"
-                    cl.sendText(msg.to,"I changed the language to engglis👈")
+                    cl.sendText(msg.to,"✠ I changed the language to Japan")
                 else:
                     wait["lang"] = "JP"
-                    cl.sendText(msg.to,"I changed the language to indonesia👈")
+                    cl.sendText(msg.to,"✠ I changed the language to indonesia")
             elif "Message set" in msg.text:
                 c = msg.text.replace("Message set","")
                 if c in [""," ","\n",None]:
-                    cl.sendText(msg.to,"Is a string that can not be changed👈")
+                    cl.sendText(msg.to,"✠ Is a string that can not be changed")
                 else:
                     wait["comment"] = c
-                    cl.sendText(msg.to,"This has been changed👈\n\n" + c)
+                    cl.sendText(msg.to,"✠ This has been changed\n\n" + c)
             elif "Come Set:" in msg.text:
                 c = msg.text.replace("Come Set:","")
                 if c in [""," ","\n",None]:
-                    cl.sendText(msg.to,"Merupakan string yang tidak bisa diubah👈")
+                    cl.sendText(msg.to,"✠ Is a string that can not be changed")
                 else:
                     wait["comment"] = c
-                    cl.sendText(msg.to,"Ini telah diubah👈\n\n" + c)
+                    cl.sendText(msg.to,"✠ Ini telah diubah\n\n" + c)
             elif msg.text in ["Com on","Com:on","Comment on"]:
                 if wait["commentOn"] == True:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Aku berada di👈")
+                        cl.sendText(msg.to,"✠ I was on")
                     else:
-                        cl.sendText(msg.to,"To open👈")
+                        cl.sendText(msg.to,"✠ To open")
                 else:
                     wait["commentOn"] = True
                     if wait["lang"] == "JP":
@@ -1070,9 +1070,9 @@ def bot(op):
             elif msg.text in ["Come off"]:
                 if wait["commentOn"] == False:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Hal ini sudah off")
+                        cl.sendText(msg.to,"✠ Come Off")
                     else:
-                        cl.sendText(msg.to,"It is already turned off")
+                        cl.sendText(msg.to,"✠ It is already turned off")
                 else:
                     wait["commentOn"] = False
                     if wait["lang"] == "JP":
@@ -1080,7 +1080,7 @@ def bot(op):
                     else:
                         cl.sendText(msg.to,"To turn off")
             elif msg.text in ["Com","Comment"]:
-                cl.sendText(msg.to,"Auto komentar saat ini telah ditetapkan sebagai berikut:👈\n\n" + str(wait["comment"]))
+                cl.sendText(msg.to,"✠ Auto commenting is currently set as follows:\n\n" + str(wait["comment"]))
             elif msg.text in ["url","Url"]:
                 if msg.toType == 2:
                     g = cl.getGroup(msg.to)
@@ -1104,10 +1104,10 @@ def bot(op):
                     cl.sendText(msg.to,"line://ti/g/" + gurl)
                 else:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Can't be used outside the group")
+                        cl.sendText(msg.to,"✠ Can't be used outside the group")
                     else:
-                        cl.sendText(msg.to,"Not for use less than group")
-            elif "V1 gurl" in msg.text:
+                        cl.sendText(msg.to,"✠ Not for use less than group")
+            elif "Bot1 gurl" in msg.text:
                 if msg.toType == 1:
                     gid = msg.text.replace("gurl","")
                     gurl = ki.reissueGroupTicket(tid)
@@ -1121,18 +1121,18 @@ def bot(op):
                     gurl = cl.reissueGroupTicket(gid)
                     cl.sendText(msg.to,"line://ti/g/" + gurl)
                 else:
-                    cl.sendText(msg.to,"Tidak dapat digunakan untuk kelompok selain")
-            elif msg.text in ["Com Bl"]:
+                    cl.sendText(msg.to,"✠ Not Found")
+            elif msg.text in ["Black:on"]:
                 wait["wblack"] = True
-                cl.sendText(msg.to,"Please send contacts from the person you want to add to the blacklistô€œô€…”👈")
-            elif msg.text in ["Com hapus Bl"]:
+                cl.sendText(msg.to,"✠ Please send contacts from the person you want to add to the blacklist")
+            elif msg.text in ["Delete Black"]:
                 wait["dblack"] = True
-                cl.sendText(msg.to,"Please send contacts from the person you want to add from the blacklistô€œô€…”👈")
-            elif msg.text in ["Com Bl cek"]:
+                cl.sendText(msg.to,"✠ Please send contacts from the person you want to add from the blacklist")
+            elif msg.text in ["Blacklist"]:
                 if wait["commentBlack"] == {}:
-                    cl.sendText(msg.to,"Nothing in the blacklistô€œ🛡")
+                    cl.sendText(msg.to,"✠ Nothing in the blacklist")
                 else:
-                    cl.sendText(msg.to,"The following is a blacklistô€œ👈")
+                    cl.sendText(msg.to,"✠ The following is a blacklist")
                     mc = ""
                     for mi_d in wait["commentBlack"]:
                         mc += "ãƒ»" +cl.getContact(mi_d).displayName + "\n"
@@ -1147,10 +1147,10 @@ def bot(op):
                     profile = cl.getProfile()
                     profile.displayName = wait["cName"] + nowT
                     cl.updateProfile(profile)
-                    cl.sendText(msg.to,"👉Jam on👈")
+                    cl.sendText(msg.to,"✠Jam on✠")
             elif msg.text.lower() == 'jam off':
                 if wait["clock"] == False:
-                    cl.sendText(msg.to,"Hal ini sudah off🛡")
+                    cl.sendText(msg.to,"✠Jam Off✠")
                 else:
                     wait["clock"] = False
                     cl.sendText(msg.to,"Adalah Off")
