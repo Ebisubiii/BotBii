@@ -99,6 +99,8 @@ helpMessage ="""   ☛CΩMMΔΠD ҒΩR CRΣΔTΩR☚
 ✠Cancelprotect on
 ✠Staff add/remove @
 ✠InviteToMe
+✠Allmode on
+✠Allmode off
 
 ☛CΩMMΔΠD ҒΩR βΩT☚
 ♜Gabung
