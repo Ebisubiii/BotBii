@@ -21,70 +21,73 @@ print u"login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""    =====[C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅]=====
-􀜁􀇔􏿿 [Id]
-􀜁􀇔􏿿 [Mid]
-􀜁􀇔􏿿 [Me] 
-􀜁􀇔􏿿 [TL 「Text」
-􀜁􀇔􏿿 [MyName]
-􀜁􀇔􏿿 [I Gift]
-􀜁􀇔􏿿 [Mid 「mid」
-􀜁􀇔􏿿 [Group id]
-􀜁􀇔􏿿 [Group cancel]
-􀜁􀇔􏿿 [Tagall]
-􀜁􀇔􏿿 [Sider]
-􀜁􀇔􏿿 [Read]
-􀜁􀇔􏿿 [album 「id」]
-􀜁􀇔􏿿 [Hapus album 「id」
-􀜁􀇔􏿿 [Contact on] 
-􀜁􀇔􏿿 [Contact off] 
-􀜁􀇔􏿿 [Auto join on] 
-􀜁􀇔􏿿 [Auto join off] 
-􀜁􀇔􏿿 [Cancelall]
-􀜁􀇔􏿿 [Cleanse]
-􀜁􀇔􏿿 [Auto leave on] 
-􀜁􀇔􏿿 [Auto leave off]
-􀜁􀇔􏿿 [Auto add on/off] 
-􀜁􀇔􏿿 [Jam on]
-􀜁􀇔􏿿 [Jam off]
-􀜁􀇔􏿿 [Jam say]
-􀜁􀇔􏿿 [UP]
-􀜁􀇔􏿿 [Ban:on] 
-􀜁􀇔􏿿 [Unban:on]
-􀜁􀇔􏿿 [Banlist]
-􀜁􀇔􏿿 [Com on]
-􀜁􀇔􏿿 [Com set]
-􀜁􀇔􏿿 [Mcheck] 
-􀜁􀇔􏿿 [Message Confirmation] 
-􀜁􀇔􏿿 [Mybio: 「Isi Bio」]  
-􀜁􀇔􏿿 [Allbio: 「Isi Bio bot」] 
+helpMessage ="""   ☛CΩMMΔΠD ҒΩR CRΣΔTΩR☚
+╩╦╩╦╩╦╩╦╩╦╩╦╩╦╩╦╩╦╩╦╩╩╦╩╦╩╦╩╦╩╦╩╦
+╠Creator line.me/ti/p/~ebisuindo╣
+╩╦╩╦╩╦╩╦╩╦╩╦╩╦╩╦╩╦╩╦╩╩╦╩╦╩╦╩╦╩╦╩╦
+♅Id
+♅Mid
+♅Me 
+♅TL 「Text」
+♅MyName]
+♅Me Gift]
+♅Mid 「mid」
+♅Group id
+♅Group cancel
+♅Kam]
+♅Sider
+♅Read
+♅album 「id」
+♅Hapus album 「id」
+♅Contact on 
+♅Contact off 
+♅Auto join on 
+♅Auto join off 
+♅Cancelall]
+♅Nuke
+♅Auto leave on 
+♅Auto leave off
+♅Auto add on/off 
+♅Jam on
+♅Jam off
+♅Jam Bii
+♅UP
+♅Ban:on 
+♅Unban:on
+♅Banlist
+♅Com on
+♅Com set
+♅Mcheck 
+♅Message Confirmation 
+♅Mybio: 「Isi Bio」  
+♅Allbio: 「Isi Bio bot」 
   
-   [C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅ ̶̲̅ɪ̶̲̅ɴ̶̲̅ ̶̲̅G̶̲̅ʀ̶̲̅ᴏ̶̲̅ᴜ̶̲̅ᴘ̶̲̅]
-􀜁􀇔􏿿 [Link on]
-􀜁􀇔􏿿 [Link off] 
-􀜁􀇔􏿿 [Invite「mid」] 
-􀜁􀇔􏿿 [Kmid: Kick by mid] 
-􀜁􀇔􏿿 [Ginfo] 
-􀜁􀇔􏿿 [Cancel]
-􀜁􀇔􏿿 [Copy @]
-􀜁􀇔􏿿 [Backup]
-􀜁􀇔􏿿 [Kuy]
-􀜁􀇔􏿿 [Papay]
-􀜁􀇔􏿿 [Gn 「Nama grup」
-􀜁􀇔􏿿 [Gurl]
-􀜁􀇔􏿿 [gurl「kelompok ID
-􀜁􀇔􏿿 [Nk「nama」]
-􀜁􀇔􏿿 [NK:]
-􀜁􀇔􏿿 [Ban:]
-􀜁􀇔􏿿 [Unban:]
-􀜁􀇔􏿿 [Protect on]
-􀜁􀇔􏿿 [qrprotect on/off]
-􀜁􀇔􏿿 [Inviteprotect on]
-􀜁􀇔􏿿 [Cancelprotect on]
-􀜁􀇔􏿿 [Staff add/remove @]
-         ✯==== Creator ====✯
-	
-  http://line.me/ti/p/~tobyg74
+☛CΩMMΔΠD ҒΩR PRΩTΣCTIΩΠ☚
+
+✠Link on
+✠Link off 
+✠Invite「mid」
+✠Kmid: Kick by mid 
+✠Ginfo 
+✠Cancel
+✠Copy @
+✠Backup]
+✠Kuy
+✠Papay
+✠Gn 「Nama grup」
+✠Gurl
+✠gurl「kelompok ID」
+✠Nk「nama」
+✠NK:
+✠Ban:
+✠Unban:
+✠Protect on
+✠qrprotect on/off
+✠Inviteprotect on
+✠Cancelprotect on
+✠Staff add/remove @
+
+=[Akun Official line.me/ti/p/~@enr7503k]=
 """
 helo=""
 
@@ -93,8 +96,8 @@ mid = cl.getProfile().mid
 kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
 Bots = [mid,kimid,ki2mid]
-admsa = "ua7fb5762d5066629323d113e1266e8ca"
-admin = "uc8e2c2b906e2322592c6d8f91a0957f7"
+admsa = "uc77fd25b59f6e563d84f1334f3fed10b"
+admin = "uc77fd25b59f6e563d84f1334f3fed10b"
 
 wait = {
     'contact':False,
@@ -103,9 +106,9 @@ wait = {
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':True,
-    'message':"Thanks For Add Me",
+    'message':"Thanks For Add Me Contact OA line.me/ti/p/~@enr7503k",
     "lang":"JP",
-    "comment":"Thanks For Add Me",
+    "comment":"Thanks For Add Me Contact OA line.me/ti/p/~@enr7503k",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
@@ -193,7 +196,7 @@ def bot(op):
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ == "u1b3ce3c7bfbbc5f4b5f2f6ded16ba3a5":
+                if msg.from_ == "uc77fd25b59f6e563d84f1334f3fed10b":
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
@@ -353,7 +356,8 @@ def bot(op):
             elif "Bot2" == msg.text:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': ki2mid}
-                ki2.sendMessage(msg)
+                ki2.sendMessage(msg)
+
             elif msg.text in ["Bot1 Gift","Bot1 gift"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
@@ -385,14 +389,14 @@ def bot(op):
                         ki.cancelGroupInvitation(msg.to, gInviMids)
                     else:
                         if wait["lang"] == "JP":
-                            cl.sendText(msg.to,"No invites👈")
+                            cl.sendText(msg.to,"是 Not Invite")
                         else:
-                            cl.sendText(msg.to,"Invite people inside not👈")
+                            cl.sendText(msg.to,"是 Invite people inside not")
                 else:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Tidak ada undangan")
+                        cl.sendText(msg.to,"是 No Invite")
                     else:
-                        cl.sendText(msg.to,"invitan tidak ada")
+                        cl.sendText(msg.to,"是 invitan tidak ada")
 
             elif msg.text in ["Cancel","cancel"]:
                 if msg.toType == 2:
@@ -402,14 +406,14 @@ def bot(op):
                         cl.cancelGroupInvitation(msg.to, gInviMids)
                     else:
                         if wait["lang"] == "JP":
-                            cl.sendText(msg.to,"No invites👈")
+                            cl.sendText(msg.to,"✠ No invites")
                         else:
-                            cl.sendText(msg.to,"Invite people inside not👈")
+                            cl.sendText(msg.to,"✠ Invite people inside not")
                 else:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Tidak ada undangan👈")
+                        cl.sendText(msg.to,"✠ No invite")
                     else:
-                        cl.sendText(msg.to,"invitan tidak ada")
+                        cl.sendText(msg.to,"✠ invitan tidak ada")
             #elif "gurl" == msg.text:
                 #print cl.getGroup(msg.to)
                 ##cl.sendMessage(msg)
@@ -419,28 +423,28 @@ def bot(op):
                     group.preventJoinByTicket = False
                     cl.updateGroup(group)
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"URL open")
+                        cl.sendText(msg.to,"✠ URL On")
                     else:
-                        cl.sendText(msg.to,"URL open")
+                        cl.sendText(msg.to,"✠ URL On")
                 else:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"It can not be used outside the group ô€œô€„‰👈")
+                        cl.sendText(msg.to,"✠ It can not be used outside the group")
                     else:
-                        cl.sendText(msg.to,"Can not be used for groups other than ô€œô€„‰")
+                        cl.sendText(msg.to,"✠ Can not be used for groups other than")
             elif msg.text in ["Link off"]:
                 if msg.toType == 2:
                     group = cl.getGroup(msg.to)
                     group.preventJoinByTicket = True
                     cl.updateGroup(group)
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"URL close👈")
+                        cl.sendText(msg.to,"✠ URL Off")
                     else:
-                        cl.sendText(msg.to,"URL close👈")
+                        cl.sendText(msg.to,"✠ URL Off")
                 else:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"It can not be used outside the group  👈")
+                        cl.sendText(msg.to,"✠ It can not be used outside the group")
                     else:
-                        cl.sendText(msg.to,"Can not be used for groups other than ô€œ")
+                        cl.sendText(msg.to,"✠ Can not be used for groups other than")
             elif "Ginfo" == msg.text:
                 ginfo = cl.getGroup(msg.to)
                 try:
@@ -454,7 +458,7 @@ def bot(op):
                         sinvitee = str(len(ginfo.invitee))
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': ginfo.creator.mid}
-                cl.sendText(msg.to,"[Nama]\n" + str(ginfo.name) + "\n[Group Id]\n" + msg.to + "\n\n[Group Creator]\n" + gCreator + "\n\nAnggota:" + str(len(ginfo.members)) + "\nInvitation:" + sinvitee + "")
+                cl.sendText(msg.to,"[иαмα]\n" + str(ginfo.name) + "\n[gяσυρ ι∂]\n" + msg.to + "\n\n[gяσυρ ¢яєαтσя]\n" + gCreator + "\n\nαиggσтα:" + str(len(ginfo.members)) + "\nιиνιтє:" + sinvitee + "")
                 cl.sendMessage(msg)
             elif "Contact" == msg.text:
                 msg.contentType = 13
@@ -462,17 +466,17 @@ def bot(op):
                 cl.sendMessage(msg)
             elif "Mymid" == msg.text:
                 cl.sendText(msg.to,mid)
-            elif "Pb1 mid" == msg.text:
+            elif "Bot1 mid" == msg.text:
                 ki.sendText(msg.to,kimid)
-            elif "Pb2 mid" == msg.text:
+            elif "Bot2 mid" == msg.text:
                 ki2.sendText(msg.to,ki2mid)
-            elif "Pb3 mid" == msg.text:
+            elif "Bot3 mid" == msg.text:
                 ki3.sendText(msg.to,kimid)
-            elif "Pb4 mid" == msg.text:
+            elif "Bot4 mid" == msg.text:
                 ki4.sendText(msg.to,ki2mid)
-            elif "Pb5 mid" == msg.text:
+            elif "Bot5 mid" == msg.text:
                 ki5.sendText(msg.to,kimid)
-            elif "Pb6 mid" == msg.text:
+            elif "Bot6 mid" == msg.text:
                 ki6.sendText(msg.to,ki2mid)
             elif "all mid" == msg.text:
                 ki.sendText(msg.to,kimid)
@@ -496,16 +500,16 @@ def bot(op):
                     profile = ki.getProfile()
                     profile.statusMessage = string
                     ki.updateProfile(profile)
-            elif "Myname:" in msg.text:
-                string = msg.text.replace("Myname:","")
+            elif "Name:" in msg.text:
+                string = msg.text.replace("Name:","")
                 if len(string.decode('utf-8')) <= 20:
                     profile = cl.getProfile()
                     profile.displayName = string
                     cl.updateProfile(profile)
-                    cl.sendText(msg.to,"􀜁􀇔􏿿Update Names👉 " + string + "👈")
+                    cl.sendText(msg.to,"Success Name is used【 " + string + "】")
 
 #-------------Fungsi Tag All Start---------------#
-            elif msg.text in ["Cipok","Tagall"]:
+            elif msg.text in ["Kam","Sial"]:
                   group = cl.getGroup(msg.to)
                   nama = [contact.mid for contact in group.members]
 
@@ -540,7 +544,7 @@ def bot(op):
                     profile = ki.getProfile()
                     profile.displayName = string
                     cl.updateProfile(profile)
-                    cl.sendText(msg.to,"􀜁􀇔��Update Names👉" + string + "👈")
+                    cl.sendText(msg.to,"Success Name is used【" + string + "】")
 #--------------------------------------------------------
             elif "2name:" in msg.text:
                 string = msg.text.replace("2name:","")
@@ -548,7 +552,7 @@ def bot(op):
                     profile = ki2.getProfile()
                     profile.displayName = string
                     ki.updateProfile(profile)
-                    ki.sendText(msg.to,"􀜁􀇔􏿿Update Names👉" + string + "👈")
+                    ki.sendText(msg.to,"Success Name is used【" + string + "】")
 #---------------------------------------------------------
             elif "Mid:" in msg.text:
                 mmid = msg.text.replace("Mid:","")
@@ -558,21 +562,21 @@ def bot(op):
             elif msg.text.lower() == 'contact on':
                 if wait["contact"] == True:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Sudah On")
+                        cl.sendText(msg.to,"✠ Sudah On")
                     else:
-                        cl.sendText(msg.to,"It is already open")
+                        cl.sendText(msg.to,"✠ It is already open")
                 else:
                     wait["contact"] = True
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"already open 👈")
+                        cl.sendText(msg.to,"✠ already open 👈")
                     else:
-                        cl.sendText(msg.to,"It is already open 􀜁􀇔􏿿")
+                        cl.sendText(msg.to,"It is already open")
             elif msg.text.lower() == 'contact off':
                 if wait["contact"] == False:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"sudah off ô€œô€„‰👈")
+                        cl.sendText(msg.to,"✠ sudah off")
                     else:
-                        cl.sendText(msg.to,"It is already off ô€œô€„‰👈")
+                        cl.sendText(msg.to,"✠ It is already off")
                 else:
                     wait["contact"] = False
                     if wait["lang"] == "JP":
@@ -582,63 +586,63 @@ def bot(op):
             elif msg.text.lower() == 'protect on':
                 if wait["protect"] == True:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Ini sudah on 􀜁􀇔􏿿👈")
+                        cl.sendText(msg.to,"✠ Protect On")
                     else:
-                        cl.sendText(msg.to,"Hal ini sudah terbuka ô€¨👈")
+                        cl.sendText(msg.to,"✠ Already On")
                 else:
                     wait["protect"] = True
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"already ON􀜁􀇔􏿿")
+                        cl.sendText(msg.to,"✠ already ON")
                     else:
-                        cl.sendText(msg.to,"It is already On ô€¨")
+                        cl.sendText(msg.to,"✠ It is already On")
             elif msg.text.lower() == 'qrprotect on':
                 if wait["linkprotect"] == True:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Ini sudah on 􀜁􀇔��👈")
+                        cl.sendText(msg.to,"✠ Link Protect On")
                     else:
-                        cl.sendText(msg.to,"Hal ini sudah terbuka ô€¨👈")
+                        cl.sendText(msg.to,"✠ Already On")
                 else:
                     wait["linkprotect"] = True
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"already ON􀜁􀇔􏿿")
+                        cl.sendText(msg.to,"✠ already ON")
                     else:
-                        cl.sendText(msg.to,"It is already On ô€¨")
+                        cl.sendText(msg.to,"✠ It is already On")
             elif msg.text.lower() == 'inviteprotect on':
                 if wait["inviteprotect"] == True:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Ini sudah on 􀜁􀇔􏿿👈")
+                        cl.sendText(msg.to,"✠ Invite Protect On")
                     else:
-                        cl.sendText(msg.to,"Hal ini sudah terbuka ô€¨����👈")
+                        cl.sendText(msg.to,"✠ Already On")
                 else:
                     wait["inviteprotect"] = True
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"already ON􀜁􀇔􏿿")
+                        cl.sendText(msg.to,"✠ already ON")
                     else:
-                        cl.sendText(msg.to,"It is already On ô€¨")
+                        cl.sendText(msg.to,"✠ It is already On")
             elif msg.text.lower() == 'cancelprotect on':
                 if wait["cancelprotect"] == True:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Ini sudah on 􀜁􀇔􏿿👈")
+                        cl.sendText(msg.to,"✠ Cancel Protect On")
                     else:
-                        cl.sendText(msg.to,"Hal ini sudah terbuka ô€¨👈")
+                        cl.sendText(msg.to,"✠ Already On")
                 else:
                     wait["cancelprotect"] = True
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"already ON􀜁􀇔􏿿")
+                        cl.sendText(msg.to,"✠ Already ON")
                     else:
-                        cl.sendText(msg.to,"It is already On ô€¨")
+                        cl.sendText(msg.to,"✠ It is already On")
             elif msg.text.lower() == 'auto join on':
                 if wait["autoJoin"] == True:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Ini sudah off 􀜁􀇔􏿿👈")
+                        cl.sendText(msg.to,"✠ Auto Aktif")
                     else:
-                        cl.sendText(msg.to,"Hal ini sudah terbuka ô€¨👈")
+                        cl.sendText(msg.to,"✠ Already On")
                 else:
                     wait["autoJoin"] = True
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"already ON􀜁􀇔􏿿")
+                        cl.sendText(msg.to,"✠ already ON")
                     else:
-                        cl.sendText(msg.to,"It is already On ô€¨")
+                        cl.sendText(msg.to,"✠ It is already On")
             elif msg.text.lower() == 'blocklist':
                 blockedlist = cl.getBlockedContactIds()
                 cl.sendText(msg.to, "Please wait...")
@@ -650,96 +654,96 @@ def bot(op):
                     num=(num+1)
                 msgs+="\n\nTotal %i blocked user(s)" % len(kontak)
                 cl.sendText(msg.to, msgs)
-            elif msg.text in ["Allprotect on","Mode on"]:
+            elif msg.text in ["Allmode on","Mode on"]:
               if msg.from_ in admin:
                 if wait["inviteprotect"] == True:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"")
+                        cl.sendText(msg.to,"✠ Invite Protect On")
                     else:
-                        cl.sendText(msg.to,"")
+                        cl.sendText(msg.to,"✠ Already On")
                 else:
                     wait["inviteprotect"] = True
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"")
+                        cl.sendText(msg.to,"✠ Invite Protect On")
                 if wait["cancelprotect"] == True:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"")
+                        cl.sendText(msg.to,"✠ Cancel Protect On")
                     else:
-                        cl.sendText(msg.to,"")
+                        cl.sendText(msg.to,"✠ Already On")
                 else:
                     wait["cancelprotect"] = True
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"")      
+                        cl.sendText(msg.to,"✠ Cancel Protect On")      
                 if wait["protect"] == True:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"")
+                        cl.sendText(msg.to,"✠ Protect On")
                     else:
-                        cl.sendText(msg.to,"")
+                        cl.sendText(msg.to,"✠ Already On")
                 else:
                     wait["protect"] = True
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"")
+                        cl.sendText(msg.to,"✠ Protect On")
                     else:
-                        cl.sendText(msg.to,"")
+                        cl.sendText(msg.to,"✠ Already On")
                 if wait["linkprotect"] == True:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"")
+                        cl.sendText(msg.to,"✠ Link Protect On")
                     else:
-                        cl.sendText(msg.to,"")
+                        cl.sendText(msg.to,"✠ Already On")
                 else:
                     wait["linkprotect"] = True
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Already On")
+                        cl.sendText(msg.to,"✠ Link Protect On")
                     else:
-                        cl.sendText(msg.to,"done")
-            elif msg.text in ["Allprotect off","Mode Off"]:
+                        cl.sendText(msg.to,"✠ Already On")
+            elif msg.text in ["Allmode off","Mode Off"]:
               if msg.from_ in admin:
                 if wait["inviteprotect"] == False:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Protect Invite Off")
+                        cl.sendText(msg.to,"✠ Invite Protect Off")
                     else:
-                        cl.sendText(msg.to,"Invite OFF")
+                        cl.sendText(msg.to,"✠ Turn Off")
                 else:
                     wait["inviteprotect"] = False
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Protect Invite Off")
+                        cl.sendText(msg.to,"✠ Invite Protect On")
                 if wait["cancelprotect"] == False:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Protect Cancel Off")
+                        cl.sendText(msg.to,"✠ Cancel Protect On")
                     else:
-                        cl.sendText(msg.to,"done")
+                        cl.sendText(msg.to,"✠ Turn Off")
                 else:
                     wait["cancelprotect"] = False
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Protect Cancel Off")      
+                        cl.sendText(msg.to,"✠ Cancel Protect Off")      
                 if wait["protect"] == False:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Block Off")
+                        cl.sendText(msg.to,"Protect Off")
                     else:
-                        cl.sendText(msg.to,"done")
+                        cl.sendText(msg.to,"✠ Turn Off")
                 else:
                     wait["protect"] = False
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Block Off")
+                        cl.sendText(msg.to,"✠ Protect Off")
                     else:
-                        cl.sendText(msg.to,"done")
+                        cl.sendText(msg.to,"✠ Turn")
                 if wait["linkprotect"] == False:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Protect QR Off")
+                        cl.sendText(msg.to,"✠ Link Protect On")
                     else:
-                        cl.sendText(msg.to,"done")
+                        cl.sendText(msg.to,"✠ Turn Off")
                 else:
                     wait["linkprotect"] = False
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Protect QR Off")
+                        cl.sendText(msg.to,"✠ Link Protect Off")
                     else:
-                        cl.sendText(msg.to,"done")
+                        cl.sendText(msg.to,"✠ Turn Off")
             elif msg.text.lower() == 'auto join off':
                 if wait["autoJoin"] == False:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Auto Join Already Off")
+                        cl.sendText(msg.to,"✠ Auto Join Already Off")
                     else:
-                        cl.sendText(msg.to,"Auto Join set off")
+                        cl.sendText(msg.to,"✠ Auto Join set off")
                 else:
                     wait["autoJoin"] = False
                     if wait["lang"] == "JP":
@@ -749,21 +753,21 @@ def bot(op):
             elif msg.text in ["Protect off"]:
                 if wait["protect"] == False:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"hall ini sudah off ô€œ👈")
+                        cl.sendText(msg.to,"✠ Protect Off")
                     else:
-                        cl.sendText(msg.to,"sudah dimatikan ô€œô€„‰👈")
+                        cl.sendText(msg.to,"✠ Turn Off")
                 else:
                     wait["protect"] = False
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"already close")
                     else:
                         cl.sendText(msg.to,"It is already open ô€œ👈")
-            elif msg.text in ["Qrprotect off","qrprotect off"]:
+            elif msg.text in ["Qrprotect off",""]:
                 if wait["linkprotect"] == False:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"hall ini sudah off ô€œ👈")
+                        cl.sendText(msg.to,"✠ Link Protect Off")
                     else:
-                        cl.sendText(msg.to,"sudah dimatikan ô€œô€„‰👈")
+                        cl.sendText(msg.to,"✠ Turn Off")
                 else:
                     wait["linkprotect"] = False
                     if wait["lang"] == "JP":
@@ -773,9 +777,9 @@ def bot(op):
             elif msg.text in ["Inviteprotect off"]:
                 if wait["inviteprotect"] == False:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"hall ini sudah off ô€œ👈")
+                        cl.sendText(msg.to,"✠ Invite Protect Off")
                     else:
-                        cl.sendText(msg.to,"sudah dimatikan ô€œô€„‰👈")
+                        cl.sendText(msg.to,"✠ Turn Off")
                 else:
                     wait["inviteprotect"] = False
                     if wait["lang"] == "JP":
@@ -785,9 +789,9 @@ def bot(op):
             elif msg.text in ["Cancelprotect off"]:
                 if wait["cancelprotect"] == False:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"hall ini sudah off ô€œ👈")
+                        cl.sendText(msg.to,"✠ Cancel Protect Off")
                     else:
-                        cl.sendText(msg.to,"sudah dimatikan ô€œô€„‰👈")
+                        cl.sendText(msg.to,"✠ Turn Off")
                 else:
                     wait["cancelprotect"] = False
                     if wait["lang"] == "JP":
@@ -800,21 +804,21 @@ def bot(op):
                     if strnum == "off":
                         wait["autoCancel"]["on"] = False
                         if wait["lang"] == "JP":
-                            cl.sendText(msg.to,"Itu off undangan ditolak👈\nSilakan kirim dengan menentukan jumlah orang ketika Anda menghidupkan👈")
+                            cl.sendText(msg.to,"✠ Cancel Group Done")
                         else:
-                            cl.sendText(msg.to,"Off undangan ditolak👈Sebutkan jumlah terbuka ketika Anda ingin mengirim")
+                            cl.sendText(msg.to,"✠ Cancel Done")
                     else:
                         num =  int(strnum)
                         wait["autoCancel"]["on"] = True
                         if wait["lang"] == "JP":
-                            cl.sendText(msg.to,strnum + "Kelompok berikut yang diundang akan ditolak secara otomatis👈")
+                            cl.sendText(msg.to,strnum + "✠ Done")
                         else:
-                            cl.sendText(msg.to,strnum + "The team declined to create the following automatic invitation")
+                            cl.sendText(msg.to,strnum + "✠ The team declined to create the following automatic invitation")
                 except:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Nilai tidak benar👈")
+                        cl.sendText(msg.to,"✠ Tidak Benar")
                     else:
-                        cl.sendText(msg.to,"Weird value🛡")
+                        cl.sendText(msg.to,"✠ ....")
             elif msg.text in ["Auto leave on","Auto leave: on"]:
                 if wait["leaveRoom"] == True:
                     if wait["lang"] == "JP":
@@ -842,51 +846,51 @@ def bot(op):
             elif msg.text in ["Share on","share on"]:
                 if wait["timeline"] == True:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Done 􀜁􀇔􏿿")
+                        cl.sendText(msg.to,"✠ Done")
                     else:
-                        cl.sendText(msg.to,"Hal ini sudah terbuka👈")
+                        cl.sendText(msg.to,"✠ Already")
                 else:
                     wait["timeline"] = True
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"on👈")
+                        cl.sendText(msg.to,"✠ on")
                     else:
-                        cl.sendText(msg.to,"on👈")
+                        cl.sendText(msg.to,"✠ on")
             elif msg.text in ["Share off","share off"]:
                 if wait["timeline"] == False:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Done👈􀜁􀇔􏿿")
+                        cl.sendText(msg.to,"✠ Done")
                     else:
-                        cl.sendText(msg.to,"It is already turned off 􀜁􀇔􏿿👈")
+                        cl.sendText(msg.to,"✠ It is already turned off")
                 else:
                     wait["timeline"] = False
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Off👈")
+                        cl.sendText(msg.to,"✠ Off")
                     else:
-                        cl.sendText(msg.to,"Off👈")
+                        cl.sendText(msg.to,"✠ Off")
             elif msg.text.lower() == 'set':
                 md = ""
-                if wait["contact"] == True: md+="􀜁􀇔􏿿 Contact:on 􀜁􀄯􏿿\n"
-                else: md+="􀜁􀇔􏿿 Contact:off􀜁􀄰􏿿\n"
-                if wait["autoJoin"] == True: md+="􀜁􀇔􏿿 Auto Join:on 􀜁􀄯􏿿\n"
-                else: md +="􀜁􀇔􏿿 Auto Join:off􀜁􀄰􏿿\n"
-                if wait["autoCancel"]["on"] == True:md+="􀜁􀇔􏿿 Auto cancel:" + str(wait["autoCancel"]["members"]) + "􀜁􀄯􏿿\n"
-                else: md+= "􀜁􀇔􏿿 Group cancel:off 􀜁􀄰􏿿\n"
-                if wait["leaveRoom"] == True: md+="􀜁􀇔􏿿 Auto leave:on 􀜁􀄯􏿿\n"
-                else: md+="􀜁􀇔􏿿 Auto leave:off 􀜁􀄰􏿿\n"
-                if wait["timeline"] == True: md+="􀜁􀇔���� Share:on 􀜁􀄯􏿿\n"
-                else:md+="􀜁􀇔􏿿 Share:off 􀜁􀄰􏿿\n"
-                if wait["autoAdd"] == True: md+="􀜁􀇔􏿿 Auto add:on 􀜁􀄯􏿿\n"
-                else:md+="􀜁􀇔􏿿 Auto add:off 􀜁􀄰􏿿\n"
-                if wait["commentOn"] == True: md+="􀜁􀇔􏿿 Auto komentar:on 􀜁􀄯􏿿\n"
-                else:md+="􀜁􀇔􏿿 Auto komentar:off 􀜁􀄰􏿿\n"
-                if wait["protect"] == True: md+="􀜁􀇔􏿿 Protect:on 􀜁􀄯􏿿\n"
-                else:md+="􀜁􀇔􏿿 Protect:off 􀜁􀄰􏿿\n"
-                if wait["linkprotect"] == True: md+="􀜁􀇔􏿿Link Protect:on 􀜁􀄯􏿿\n"
-                else:md+="􀜁􀇔􏿿 Link Protect:off 􀜁􀄰􏿿\n"
-                if wait["inviteprotect"] == True: md+="􀜁􀇔􏿿Invitation Protect:on 􀜁􀄯􏿿\n"
-                else:md+="􀜁􀇔􏿿 Invitation Protect:off 􀜁􀄰􏿿\n"
-                if wait["cancelprotect"] == True: md+="􀜁􀇔􏿿Cancel Protect:on 􀜁􀄯􏿿\n"
-                else:md+="􀜁􀇔􏿿 Cancel Protect:off 􀜁􀄰􏿿\n"
+                if wait["contact"] == True: md+="★ Contact:on ★\n"
+                else: md+="✰ Contact:off ✰\n"
+                if wait["autoJoin"] == True: md+="★ Auto Join:on ★\n"
+                else: md +="✰ Auto Join:off ✰\n"
+                if wait["autoCancel"]["on"] == True:md+="★ Auto cancel:" + str(wait["autoCancel"]["members"]) + "★\n"
+                else: md+= "✰ Group cancel:off ✰\n"
+                if wait["leaveRoom"] == True: md+="★ Auto leave:on ★\n"
+                else: md+="✰ Auto leave:off ✰\n"
+                if wait["timeline"] == True: md+="★ Share:on ★\n"
+                else:md+="✰ Share:off ✰\n"
+                if wait["autoAdd"] == True: md+="★ Auto add:on ★\n"
+                else:md+="✰ Auto add:off ✰\n"
+                if wait["commentOn"] == True: md+="★ Auto Commen:on ★\n"
+                else:md+="✰ Auto Commen:off ✰\n"
+                if wait["protect"] == True: md+="★ Protect:on ★\n"
+                else:md+="✰ Protect:off ✰\n"
+                if wait["linkprotect"] == True: md+="★Link Protect:on ★\n"
+                else:md+="✰ Link Protect:off ✰\n"
+                if wait["inviteprotect"] == True: md+="★Invitation Protect:on ★\n"
+                else:md+="✰ Invitation Protect:off ✰\n"
+                if wait["cancelprotect"] == True: md+="★Cancel Protect:on ★\n"
+                else:md+="✰ Cancel Protect:off ✰\n"
                 cl.sendText(msg.to,md)
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': admsa}
@@ -898,16 +902,16 @@ def bot(op):
             elif cms(msg.text,["creator","Creator"]):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': admsa}
-                cl.sendText(msg.to,"􀜁􀇔􏿿 My Creator 􀜁􀇔􏿿 ")
+                cl.sendText(msg.to,"♚ Creator ♚ ")
                 cl.sendMessage(msg)
-                cl.sendText(msg.to,"􀜁􀇔􏿿 Dont Kick out From group 􀜁􀇔􏿿 ")
-            elif msg.text in ["Cancelall"]:
+                cl.sendText(msg.to,"✠ Dont Kick out From group ")
+            elif msg.text in ["Cancel"]:
                 if msg.from_ in admin:
                   gid = cl.getGroupIdsInvited()
                   for i in gid:
                     cl.rejectGroupInvitation(i)
                 if wait["lang"] == "JP":
-                    cl.sendText(msg.to,"All invitations have been refused")
+                    cl.sendText(msg.to," ✠ All invitations have been refused")
                 else:
                     cl.sendText(msg.to,"æ‹’ç»äº†å…¨éƒ¨çš„é‚€è¯·ã€‚")	
             elif "Set album:" in msg.text:
@@ -915,9 +919,9 @@ def bot(op):
                 album = cl.getAlbum(gid)
                 if album["result"]["items"] == []:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Tidak ada album👈")
+                        cl.sendText(msg.to,"✠ Not Found")
                     else:
-                        cl.sendText(msg.to,"Dalam album tidak👈")
+                        cl.sendText(msg.to,"✠ Not Found")
                 else:
                     if wait["lang"] == "JP":
                         mg = "Berikut ini adalah album dari target"
@@ -1607,7 +1611,8 @@ def bot(op):
                 text = profile.displayName + "􀜁􀅔􏿿"
                 ki.sendText(msg.to, text)
                 profile = ki3.getProfile()
-                text = profile.displayName + "􀜁􀅔􏿿"
+                text = profile.displayName + "􀜁􀅔􏿿"
+
 #-------------------------------------------------------------------
 
 #------------------------------------------------------------------	
