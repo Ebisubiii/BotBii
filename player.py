@@ -101,6 +101,7 @@ helpMessage ="""   ☛CΩMMΔΠD ҒΩR CRΣΔTΩR☚
 ✠InviteToMe
 ✠Allmode on
 ✠Allmode off
+✠Kill it
 
 ☛CΩMMΔΠD ҒΩR βΩT☚
 ♜Gabung
