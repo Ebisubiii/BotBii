@@ -58,7 +58,7 @@ helpMessage ="""   ☛CΩMMΔΠD ҒΩR CRΣΔTΩR☚
 ♅Banlist
 ♅Com on
 ♅Com set
-♅Mcheck 
+♅Kcheck 
 ♅Message Confirmation 
 ♅Mybio: 「Isi Bio」  
 ♅Allbio: 「Isi Bio bot」
@@ -72,6 +72,7 @@ helpMessage ="""   ☛CΩMMΔΠD ҒΩR CRΣΔTΩR☚
 ♅Steal Home @
 ♅Steal dp @
 ♅Invite:on
+♅Kinvite
 
 ☛CΩMMΔΠD ҒΩR PRΩTΣCTIΩΠ☚
 
@@ -2036,7 +2037,7 @@ def bot(op):
                     except:
                         pass
 #-----------------------------------------------
-            elif "NBT Key" in msg.text:
+            elif "NTB Key" in msg.text:
                 ki.sendText(msg.to,"""      ♛ NTB BOT ♛  \n\n ♛ NTB Only Kicker ♛ \n\n♛NTB1 in\n♛[1Biiname:]\n♛[NTB Cancel]\n♛[kick @]\n♛[Ban @]\n♛[kill]\n♛[BotChat]\n♛[Respons]\n♛[NTB1 Gift]\n♛[NTB bye]\n\n   
   
         
