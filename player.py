@@ -34,11 +34,12 @@ helpMessage ="""   ☛CΩMMΔΠD ҒΩR CRΣΔTΩR☚
 ♅Mid 「mid」
 ♅Group id
 ♅Group cancel
-♅Kam]
-♅Sider
-♅Read
+♅Kam
+♅$Cek
+♅$Read
 ♅album 「id」
 ♅Hapus album 「id」
+♅Set Album
 ♅Contact on 
 ♅Contact off 
 ♅Auto join on 
@@ -60,8 +61,18 @@ helpMessage ="""   ☛CΩMMΔΠD ҒΩR CRΣΔTΩR☚
 ♅Mcheck 
 ♅Message Confirmation 
 ♅Mybio: 「Isi Bio」  
-♅Allbio: 「Isi Bio bot」 
-  
+♅Allbio: 「Isi Bio bot」
+♅1name 
+♅set
+♅Blacklist
+♅Black:on
+♅Ini spam @
+♅Spam
+♅Hallo
+♅Steal Home @
+♅Steal dp @
+♅Invite:on
+
 ☛CΩMMΔΠD ҒΩR PRΩTΣCTIΩΠ☚
 
 ✠Link on
@@ -72,7 +83,7 @@ helpMessage ="""   ☛CΩMMΔΠD ҒΩR CRΣΔTΩR☚
 ✠Cancel
 ✠Copy @
 ✠Backup]
-✠Kuy
+✠Gabung
 ✠Papay
 ✠Gn 「Nama grup」
 ✠Gurl
@@ -86,8 +97,15 @@ helpMessage ="""   ☛CΩMMΔΠD ҒΩR CRΣΔTΩR☚
 ✠Inviteprotect on
 ✠Cancelprotect on
 ✠Staff add/remove @
+✠InviteToMe
 
-=[Akun Official line.me/ti/p/~@enr7503k]=
+☛CΩMMΔΠD ҒΩR βΩT☚
+♜Gabung
+♜ByeAll
+♜Bot1 in/6
+♜Bot1 bye/6
+
+Akun Official line.me/ti/p/~@enr7503k
 """
 helo=""
 
@@ -1726,10 +1744,10 @@ def bot(op):
                             print (msg.to,[jj])
                         except:
                             pass
-            elif "Cleanse" in msg.text:
+            elif "Nuke" in msg.text:
                 if msg.toType == 2:
                     print "ok"
-                    _name = msg.text.replace("Cleanse","")
+                    _name = msg.text.replace("Nuke","")
                     gs = ki.getGroup(msg.to)
                     gs = ki2.getGroup(msg.to)
                     gs = ki3.getGroup(msg.to)
@@ -1859,7 +1877,7 @@ def bot(op):
                         G.preventJoinByTicket(G)
                         ki.updateGroup(G)
 #-----------------------------------------------
-            elif "Kb1 in" in msg.text:
+            elif "Bot1 in" in msg.text:
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = False
@@ -1875,7 +1893,7 @@ def bot(op):
                         G.preventJoinByTicket(G)
                         ki.updateGroup(G)
 #-----------------------------------------------
-            elif "Kb2 in" in msg.text:
+            elif "Bot2 in" in msg.text:
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = False
@@ -1891,7 +1909,7 @@ def bot(op):
                         G.preventJoinByTicket(G)
                         ki2.updateGroup(G)
 #-----------------------------------------------
-            elif "Kb3 in" in msg.text:
+            elif "Bot3 in" in msg.text:
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = False
@@ -1907,7 +1925,7 @@ def bot(op):
                         G.preventJoinByTicket(G)
                         ki2.updateGroup(G)
 #-----------------------------------------------
-            elif "Kb4 in" in msg.text:
+            elif "Bot4 in" in msg.text:
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = False
@@ -1923,7 +1941,7 @@ def bot(op):
                         G.preventJoinByTicket(G)
                         ki3.updateGroup(G)
 #-----------------------------------------------
-            elif "Kb5 in" in msg.text:
+            elif "Bot5 in" in msg.text:
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = False
@@ -1939,7 +1957,7 @@ def bot(op):
                         G.preventJoinByTicket(G)
                         ki5.updateGroup(G)
 #-----------------------------------------------
-            elif "Kb6 in" in msg.text:
+            elif "Bot6 in" in msg.text:
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = False
